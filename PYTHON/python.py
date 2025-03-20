@@ -1,0 +1,25 @@
+# txt = "The best things in life are free!"
+# print("free" in txt)
+
+# txt = "The best things in life are free!"
+# if "free" in txt:
+# print("Yes, 'free' is present.")
+
+txt = "The best things in life are free!"
+
+print("expensive" not in txt)
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+    print("No, 'expensive' is NOT present.")
+
+    txt = "The best things in life are free!"
+    if "free" in txt:
+        print("Yes, 'free' is present.")
+
+x = 'welcome'
+print(x[3])
+
+x = "Hello World"
+result = len(x)
+print(result)

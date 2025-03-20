@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+<style>
+.submit {
+    border: 1px solid black;
+border-radius: 5px;
+color: aqua;
+background-color: blue;
+
+
+}
+.message {
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+border: 1px solid cyan;
+color: blueviolet;
+background-color: rgb(107, 231, 91);
+
+}
+.back {
+background-color: rgb(59, 78, 78);
+
+
+}
+.form {
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+   
+}
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+    
+    <div class="grid-container">
+        <div class="grid-header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href=""></a></li>
+                <li><a href="/home.html" class="nav-link">Home</a></li>
+                <li><a href="/about.html" class="nav-link">About</a></li>
+                <li><a href="/contact.html" class="nav-link">Contact</a></li>
+                <li><a href="/grid.html" class="nav-link">Mental health</a></li>
+               
+        <li><a href="/animations.html" class="nav-link">Animations</a></li>
+                <li><a href="/register.html" class="nav-link" id="register">Register</a></li>
+                
+                </ul>
+        
+        </nav>
+        
+        
+        </div>
+        
+        
+        <div class="grid-content">
+
+            <section>
+
+<h1>Student Registration</h1> 
+<p>Apply today to join Abnas Dj Academy,,you djing journey will be orchastrated.please fill the form below to join us</p>
+<form action="submit.php" method="post" class="form">
+<div>
+<label for="fname">First name</label>
+<input  class="back"   type="text" id="fname" name="fname" required>
+</div>
+<div>
+<label for="lname">Last name</label>
+<input  class="back"  type="text" id="lname" name="lname" required>
+</div>
+<div>
+
+<label for="pnumber">Phone number</label>
+<input  class="back"    type="pnumber" id="pnumber" name="pnumber" required>
+        </div>
+            
+            <div>
+<label for="email">Email</label>
+<input  class="back"    type="email" id="email" name="email">
+            </div>
+            <div>
+<label class="message" for="message">Message</label>
+<textarea name="message" id="message" rows="4" cols="30" required></textarea>  <br><br><br> 
+</div>
+<button class="submit">Submit</button>
+
+</div>
+</form>
+
+<div class="grid-footer">
+&copy 2025
+</div>
+
+</div>
+
+
+</body>
+</html>
