@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: antiquewhite;
+}
+
+h2, h3 {
+    color: blue;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+header h3 {
+    color: white;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+header ul li a {
+    color: azure;
+    text-decoration: none;
+}
+
+header li a {
+    display: flex;
+}
+
+.oli {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 577px) {
+    header {
+        background-color: chartreuse;
+    }
+
+    h2 {
+        color: brown;
+    }
+}
+
+@media (min-width: 769px) {
+    header {
+        background-color: deeppink;
+    }
+
+    h2 {
+        color: red;
+    }
+}
+
+@media (min-width: 993px) {
+    header {
+        background-color: greenyellow;
+    }
+
+    h2 {
+        color: purple;
+    }
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+
+    .brand-name {
+        color: whitesmoke;
+        font-size: 24px;
+    }
+    .menu-toggle {
+
+        display: none;
+
+    }
+.menu-toggle-label {
+display: none;
+flex-direction: column;
+gap: 5px;
+cursor: pointer;
+
+}
+
+.menu-toggle-label span {
+width: 25px;
+height: 3px;
+background: whitesmoke;
+transition: transform 0.3s ease;
+
+}
+
+}
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 16px;
+        left: 0;
+        gap: 0;
+        border-radius: 0 0 4px 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+.nav-links li {
+
+    text-align: center;
+border-top: 1px solid #444;
+
+    padding: 16px;
+}
+.nav-links li:last-child {
+    border-radius: 0 0 4px 4px;
+}
+.menu-toggle:checked ~ .menu-toggle-label span:nth-child(1){
+transform: rotate(45deg) translate: (5px 5px);
+}
+.menu-toggle:checked ~ .menu-toggle-label span:nth-child(2){
+opacity: 0;
+}
+.menu-toggle:checked ~ .menu-toggle-label span:nth-child(1){
+    transform: rotate(-45deg) translate(7px -7px);
+
+
+}
+
+
+    .brand-name {
+     display: none;
+    }
+    .menu-toggle {
+
+        display: none;
+
+    }
+.menu-toggle-label {
+display: flex;
+z-index: 2;
+margin-left: auto;
+
+}
+
+.menu-toggle-label span {
+width: 25px;
+height: 3px;
+background: whitesmoke;
+transition: transform 0.3s ease;
+
+}
+
+
+}

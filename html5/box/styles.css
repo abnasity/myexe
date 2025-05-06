@@ -1,0 +1,72 @@
+div{
+background-color: #f0f0f0;
+width: 200px;
+height: 100px;
+
+}
+
+.box-one {
+width: 200px;
+height: 100px;
+background-color: lightblue;
+margin-bottom: 20px;
+}
+
+.box-two {
+    background-color: lightgreen;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+.box-three {
+    background-color: lightpink;
+    border: 5px solid purple;
+    margin-bottom: 20px;
+}
+.rainbow-box {
+    border: 5px solid;
+    
+   border-color: red green blue yellow;
+   background-color: grey;
+   padding-left: 10px;
+   padding-right: 20px;
+   padding-bottom: 40px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+
+}
+.out{
+width: 150px;
+height: 100px;
+border: 5px solid blueviolet;
+background-color: chocolate;
+padding: 20px;
+
+}
+.in {
+    width: 100px;
+    height: 50px;
+padding: 10px;
+border: 5px solid black;
+background-color: darkgreen;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

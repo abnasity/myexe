@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Arial', sans-serif;
+display: flex;
+justify-content: space-between;
+
+}
+
+
+header h3 {
+color: rgb(152, 255, 83);
+
+
+}
+h2 {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+
+p{
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.oli{
+
+    margin-left: 30px;
+    margin-bottom: 6px;
+}
+
+
+
+
+
+header ul{
+
+list-style: none;
+display: flex;
+
+
+}
+
+header ul li {
+    padding: 1rem;
+    text-decoration: none;
+    
+
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+
+}
+ header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+
+ }
+    
+       
+nav .mainMenu li a:hover {
+
+    background: rgb(255, 94, 0;)
+}
+nav.openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+nav .mainMenu .closeMenu , .icons {
+
+    font-size: 2rem;
+}
+
+ 
+@media(max-width:760px) {
+    height: 100vh;
+    position: fixed;
+    top: o;
+    right: 0;
+    left: 0;
+  
+}
+nav .mainMenu .closeMenu {
+display: block;
+position: absolute;
+top: 20px;
+right: 20px;
+
+}
+nav .openMenu {
+
+    display: block;
+
+}
+nav .mainMenu li a:hover{
+    background: none;
+    color: fuchsia;
+    font-size: 1.6rem;
+}
+
+
+
