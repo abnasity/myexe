@@ -8,3 +8,12 @@ float = 5.7
 bool = True, False
 char = 'A'
 string = "Hello"
+
+# Lets talk about dictionaries
+# In dictionaries we have both keys and values both in quotes
+Phone = {
+    "model": "Samsung",
+    "Processor" : "Mediatek",
+    "Android version" : "15",
+    "Specs" : "Storage 256 Ram 8gb"
+}
