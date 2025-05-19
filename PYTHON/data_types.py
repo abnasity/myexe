@@ -7,3 +7,4 @@ int = 45
 float = 5.7
 bool = True, False
 char = 'A'
+string = "Hello"
