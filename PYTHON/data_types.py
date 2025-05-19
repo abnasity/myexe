@@ -10,7 +10,7 @@ char = 'A'
 string = "Hello"
 
 # Lets talk about dictionaries
-# In dictionaries we have both keys and values both in quotes
+# In dictionaries we have both keys and values both in quotes separated by a colon
 Phone = {
     "model": "Samsung",
     "Processor" : "Mediatek",
@@ -20,3 +20,6 @@ Phone = {
 
 # List example
 list = ["Mango", "Banana", "Orange"]
+
+# Tuple example
+MyTuple = ("Mango", "Banana", "Orange")
