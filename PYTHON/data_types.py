@@ -23,3 +23,6 @@ list = ["Mango", "Banana", "Orange"]
 
 # Tuple example
 MyTuple = ("Mango", "Banana", "Orange")
+
+# Sets example
+MySet = {1, 2, 3, 4, 5}
