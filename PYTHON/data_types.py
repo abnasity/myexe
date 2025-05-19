@@ -27,7 +27,7 @@ list = ["Mango", "Banana", "Orange"]
 
 # Tuple example
 # Key features
-
+# Ordered, immutable, can contain mixed data types
 MyTuple = ("Mango", "Banana", "Orange")
 
 # Sets example
