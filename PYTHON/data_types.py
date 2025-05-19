@@ -36,3 +36,19 @@ MyTuple = ("Mango", "Banana", "Orange")
 # No duplicate elements
 
 MySet = {1, 2, 3, 4, 5}
+
+# Summary key features
+# *****💡 Summary by Feature*******
+# Feature	Applies To
+# Ordered -	List, Tuple, String, Array
+# Unordered - 	Set, Dict, Map
+# Allows Duplicates	- List, Tuple, Array
+# No Duplicates -	Set, Dict keys
+# Immutable	- Tuple, String (in Python)
+# Mutable -	List, Set, Dict
+# Indexed Access - List, Tuple, String, Array
+# Keyed Access	- Dict, Map
+# Numeric Operations - Int, Float, Decimal
+# Text Operations -	String, Char
+# Logical Operations -	Boolean
+# Date Arithmetic - Date, Time, DateTime
