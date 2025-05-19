@@ -21,6 +21,8 @@ Phone = {
 }
 
 # List example
+# key features
+# Ordered, indexable, can contain duplicates
 list = ["Mango", "Banana", "Orange"]
 
 # Tuple example
@@ -31,7 +33,6 @@ MyTuple = ("Mango", "Banana", "Orange")
 # Sets example
 # *****Key features*****
 # Unordered
-
 # No duplicate elements
 
 MySet = {1, 2, 3, 4, 5}
