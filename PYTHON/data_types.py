@@ -11,6 +11,8 @@ string = "Hello"
 
 # Lets talk about dictionaries
 # In dictionaries we have both keys and values both in quotes separated by a colon
+# Key Features
+
 Phone = {
     "model": "Samsung",
     "Processor" : "Mediatek",
@@ -22,7 +24,14 @@ Phone = {
 list = ["Mango", "Banana", "Orange"]
 
 # Tuple example
+# Key features
+
 MyTuple = ("Mango", "Banana", "Orange")
 
 # Sets example
+# *****Key features*****
+# Unordered
+
+# No duplicate elements
+
 MySet = {1, 2, 3, 4, 5}
