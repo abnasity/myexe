@@ -17,3 +17,6 @@ Phone = {
     "Android version" : "15",
     "Specs" : "Storage 256 Ram 8gb"
 }
+
+# List example
+list = ["Mango", "Banana", "Orange"]
