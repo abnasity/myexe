@@ -12,7 +12,7 @@ string = "Hello"
 # Lets talk about dictionaries
 # In dictionaries we have both keys and values both in quotes separated by a colon
 # Key Features
-
+# 	Key-value pairs, keys are unique, no duplicates, Unordered
 Phone = {
     "model": "Samsung",
     "Processor" : "Mediatek",
